@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Click extension</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header"></header>
+    <div class="dashboard">
+        <nav class="nav-links">
+            <a href="/pages/home/index.html">Home</a>
+            <a href="/pages/setting/index.html">Setting</a>
+        </nav>
+
+        <main>
+            <div>
+                <div class="breadcrum">&lt; Settings</div>
+                <h1 class="big-title">General</h1>
+                <div class="all-settings">
+                    <div class="setting-card">
+                        <h2 class="setting-heading">Main</h2>
+                        <div class="setting-card-options">
+                            <div>
+                                <input id="setting-1" type="checkbox" value="real-time-protection"/>
+                                <label for="setting-1">Real-time Protection</label>
+                            </div>
+                            <div class="lv-2">
+                                <input id="setting-2" type="checkbox" value="machine-learning-detecting" />
+                                <label for="setting-2">Machine Learning Detecting</label>
+                            </div>
+                            <div>
+                                <input id="setting-3" type="checkbox" value="auto-report" />
+                                <label for="setting-3">Auto Report</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="setting-card">
+                        <h2 class="setting-heading">Tool</h2>
+                        <div class="setting-card-options">
+                            <div>
+                                <input id="setting-4" type="checkbox" value="enable-shopee-title"/>
+                                <label for="setting-4">Enable Shopee Title</label>
+                            </div>
+                            <div>
+                                <input id="setting-5" type="checkbox" value="enable-href" />
+                                <label for="setting-5">Enable href</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button id="btn-discard">Discard</button>
+                    <button id="btn-save">Save</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
